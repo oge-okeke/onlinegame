@@ -9,7 +9,7 @@ body {
 #topNav {
 
   background:orange;
-  box-shadow: 0px 1px 10px 10px beer;
+  box-shadow: 0px 1px 10px 10px darkorange;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   height: auto;
   text-align: center;
