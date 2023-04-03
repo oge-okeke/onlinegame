@@ -30,10 +30,6 @@
   </ul>
 </nav>
 <h1>Explorations in Gaming</h1>
-<ul>
-    <li><a href="#board">Board Game Exploration</a></li>
-    <li><a href="#video">Video Game Exploration</a></li>
-</ul>
 
 <h2 id="board">Board Game Exploration</h2>
 <p>When I was first assigned this exploration to complete with my group, the first step was to pick a game that we wanted to be inspired by. The game we wanted to 
@@ -60,31 +56,53 @@
         <li> 8. NOTE: When you land on the same spot as another player, you can kick them off of the board. (This is the fun part) </li>
 </ul>
         <center>
-        <h2> Images of the Start and Finished Game Board </h2>
-        <img src="gameboardstart.png" alt="Trulli" width="400" height="333">
-
-        <img src="gameboard.png" alt="Trulli" width="400" height="333">
-            <center>
+        
         
 <h2 id ="video">Video Game Exploration</h2>
                 <p> Here is some code to be explained below: <p>
                 
+                <p> Below is an example of a flowchart and pseudocode that we used to create the actual code to our game. </p>
+        
+        <center> 
+            <img src="flowchart.png" alt="Trulli" width="800" height="600">
+        <center>
+                
 <pre>
-  def draw():
-    if game_over:
-        screen.draw.text("Final Score: " + str(score), topleft=(10, 10), fontsize=60)
-          else:
-        screen.fill("green")
-        screen.clear()
-        turkey.draw()
-        screen.draw.text("Score: " + str(score), color="blue", topleft=(10, 10))
+  set score = 0
+initialize player_location= (0,0)
+set player_ram=0
+set timer=45
+set_trash=(random)
+time=time_start
+
+#This happens as a loop
+
+if trash_collected=true
+then set score=+1
+
+else:
+set_trash (random)
+update score
+
+if player_ram=True
+call procedure_playerram
+
+to procedure_playerram
+	if player_location = out_of_parameters
+	then set player_location = spawn point
+
+
+else: time=time_remaining
+clear screen
+End game
+
  </pre>
                 
-<p> While discovering more about creating a video game, I knew that I wanted it to be fun and interactive. I derived some of the code from the examples given in class.
-  I created a game called "shoot the turkey." In this game, it requires a player to click a turkey that will appear at random places on the screen. The objective is 
-    to reach the highest score possible within ten seconds without missing the turkey. This game is fun because it tests for accuracy and precision. Below is some piece
-    of code that directly shows how I incorporated score keeping in the game which is a new skill that I learned on Youtube. The code below reads as follows:
-    draw on the screen the final score as a string when the game is over. Draw the final score at the top left corner with the font size 60. 
-    Else, if the game is not over, draw on the screen the current score during the ongoing game.</p>
+<p> While discovering more about creating a video game, we knew that we wanted it to be fun and interactive. We then derived some of the code from the examples given in class.
+  The created game is called: "Litterbugs." In this game, we are trying to prevent littering from continuing and to make better choices 
+    when irresponsibly and carelessly disposing of trash. To measure the impact of the game, before we say the name of the game and give the instructions, 
+    we give the players a form to answer regarding littering and then when they play the game, then as they play the game, quick facts will print on the screen. 
+    After, we will send out a form again to see how much information they gained. </p>
+
                 
   
